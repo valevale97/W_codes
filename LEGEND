@@ -5,3 +5,6 @@ The repository contains 3 separate folders:
     (FIDA?) sightlines. The signal is added some noise and then inverted using a (modulable) combination of 0th and 1st order Tikhonov regularization.
 -   AnalyticalTomo contains instead the python counterpart of "tomoanalyticV", where the essential features of the code are translated into the new language.
 -   wcodes contains new Mirko's code on weight functions, from neutron to 1-step gamma ray to FIDA.
+
+
+
