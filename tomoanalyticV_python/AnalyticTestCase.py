@@ -94,7 +94,7 @@ S = np.einsum('i,i->i',S,1/e)
 # PERFORMING INVERSION
 
 lmbd = np.asarray([10**1,10**2,10**3,10**4])#**0.5
-bt = 2*10**-15
+bt = 2*10**-6
 
 f_lambda = TikhonovNonNeg(W,S,v_prl,v_prp,lmbd,bt)
 
